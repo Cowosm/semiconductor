@@ -2,7 +2,7 @@ import { Globe, Zap } from 'lucide-react';
 
 const Slide02_IndustryOverview = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-8">
+    <div className="h-full bg-gradient-to-br from-blue-50 to-indigo-100 p-8 overflow-auto">
       <div className="max-w-7xl mx-auto">
         <h1 className="text-4xl font-bold text-gray-800 mb-8">1. Industry Overview: Why Semiconductors Matter</h1>
         

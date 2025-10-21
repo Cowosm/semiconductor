@@ -41,7 +41,7 @@ const App = () => {
   return (
     <div className="w-full h-screen bg-gray-900 flex flex-col">
       {/* Main Slide Display */}
-      <div className="flex-1 overflow-hidden">
+      <div className="flex-1 overflow-auto">
         {slides[currentSlide]}
       </div>
 
