@@ -1,11 +1,11 @@
 const Slide04_MarketTrends = () => {
   return (
-    <div className="h-full bg-gradient-to-br from-blue-50 to-indigo-100 p-8 overflow-auto">
+    <div className="h-full bg-gradient-to-br from-blue-50 to-indigo-100 p-4 md:p-8 overflow-auto">
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-4xl font-bold text-gray-800 mb-8">3. Key Market Trends Driving Growth</h1>
+        <h1 className="text-2xl md:text-4xl font-bold text-gray-800 mb-4 md:mb-8">3. Key Market Trends Driving Growth</h1>
         
         <div className="space-y-6">
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
             <div className="bg-gradient-to-br from-purple-500 to-blue-500 text-white p-6 rounded-lg">
               <h3 className="text-2xl font-bold mb-4">🤖 AI & Machine Learning</h3>
               <div className="space-y-3">
@@ -101,7 +101,7 @@ const Slide04_MarketTrends = () => {
 
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <h3 className="text-xl font-bold text-gray-800 mb-4">Government Policy Impact & Investment (2024-25 Update)</h3>
-            <div className="grid grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
                 <div className="flex items-center mb-3">
                   <span className="text-2xl mr-2">🇺🇸</span>
@@ -158,7 +158,7 @@ const Slide04_MarketTrends = () => {
 
           <div className="bg-gradient-to-r from-yellow-50 to-orange-50 p-6 rounded-lg border-l-4 border-yellow-600">
             <h4 className="text-lg font-bold text-yellow-900 mb-3">📊 Market Impact Analysis</h4>
-            <div className="grid grid-cols-3 gap-4 text-sm">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
               <div>
                 <p className="font-semibold text-gray-800 mb-2">Winners by Trend</p>
                 <ul className="text-gray-700 space-y-1">

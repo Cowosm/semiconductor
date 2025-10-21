@@ -1,8 +1,8 @@
 const Slide07_ValueChainSegments = () => {
   return (
-    <div className="h-full bg-gradient-to-br from-blue-50 to-indigo-100 p-8 overflow-auto">
+    <div className="h-full bg-gradient-to-br from-blue-50 to-indigo-100 p-4 md:p-8 overflow-auto">
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-4xl font-bold text-gray-800 mb-8">2. Semiconductor Value Chain: Three Major Segments</h1>
+        <h1 className="text-2xl md:text-4xl font-bold text-gray-800 mb-4 md:mb-8">2. Semiconductor Value Chain: Three Major Segments</h1>
         
         <div className="space-y-6">
           <div className="bg-gradient-to-r from-blue-500 to-purple-500 text-white p-6 rounded-lg">
@@ -10,7 +10,7 @@ const Slide07_ValueChainSegments = () => {
             <p className="text-lg">Each segment requires distinct capabilities and investment</p>
           </div>
 
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="bg-blue-50 p-6 rounded-lg border-t-4 border-blue-600">
               <h4 className="text-xl font-bold text-blue-900 mb-4">1. DESIGN</h4>
               <p className="text-sm text-gray-700 mb-3 font-semibold">Skill & Research Intensive</p>
@@ -128,7 +128,7 @@ const Slide07_ValueChainSegments = () => {
 
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <h3 className="text-xl font-bold text-gray-800 mb-4">Competitive Dynamics & Value Creation</h3>
-            <div className="grid grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="text-center">
                 <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
                   <span className="text-2xl font-bold text-blue-600">1</span>
@@ -173,7 +173,7 @@ const Slide07_ValueChainSegments = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-gradient-to-r from-blue-50 to-green-50 p-6 rounded-lg border border-gray-200">
               <h4 className="text-lg font-bold text-gray-800 mb-4">📊 Financial Profile Comparison</h4>
               <div className="space-y-3">

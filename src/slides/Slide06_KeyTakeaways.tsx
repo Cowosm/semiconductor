@@ -1,8 +1,8 @@
 const Slide06_KeyTakeaways = () => {
   return (
-    <div className="h-full bg-gradient-to-br from-blue-50 to-indigo-100 p-8 overflow-auto">
+    <div className="h-full bg-gradient-to-br from-blue-50 to-indigo-100 p-4 md:p-8 overflow-auto">
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-4xl font-bold text-gray-800 mb-8">5. Key Takeaways</h1>
+        <h1 className="text-2xl md:text-4xl font-bold text-gray-800 mb-4 md:mb-8">5. Key Takeaways</h1>
         
         <div className="space-y-6">
           <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-8 rounded-lg text-center">
@@ -10,7 +10,7 @@ const Slide06_KeyTakeaways = () => {
             <p className="text-xl">Semiconductors: Complex, Capital-Intensive, Strategically Critical</p>
           </div>
 
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <h3 className="text-xl font-bold text-green-900 mb-4 flex items-center">
                 <span className="text-2xl mr-3">✅</span>

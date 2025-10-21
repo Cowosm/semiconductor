@@ -2,12 +2,12 @@ import { DollarSign, TrendingUp } from 'lucide-react';
 
 const Slide05_InvestmentConsiderations = () => {
   return (
-    <div className="h-full bg-gradient-to-br from-blue-50 to-indigo-100 p-8 overflow-auto">
+    <div className="h-full bg-gradient-to-br from-blue-50 to-indigo-100 p-4 md:p-8 overflow-auto">
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-4xl font-bold text-gray-800 mb-8">4. Investment & Finance Considerations</h1>
+        <h1 className="text-2xl md:text-4xl font-bold text-gray-800 mb-4 md:mb-8">4. Investment & Finance Considerations</h1>
         
         <div className="space-y-6">
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
             <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-red-600">
               <h3 className="text-xl font-bold text-red-900 mb-4 flex items-center">
                 <DollarSign className="w-6 h-6 mr-2" />
@@ -61,7 +61,7 @@ const Slide05_InvestmentConsiderations = () => {
 
           <div className="bg-blue-50 p-6 rounded-lg">
             <h3 className="text-xl font-bold text-blue-900 mb-4">M&A Activity & Consolidation</h3>
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <div className="bg-white p-4 rounded shadow">
                 <p className="font-semibold text-gray-800 mb-2">Recent Trends</p>
                 <ul className="text-sm text-gray-600 space-y-1">
@@ -91,7 +91,7 @@ const Slide05_InvestmentConsiderations = () => {
 
           <div className="bg-gradient-to-r from-yellow-50 to-orange-50 p-6 rounded-lg border-l-4 border-yellow-600">
             <h4 className="text-lg font-bold text-yellow-900 mb-3">Key Investment Metrics to Watch</h4>
-            <div className="grid grid-cols-4 gap-4 text-sm">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
               <div>
                 <p className="font-semibold text-gray-800">Capacity Utilization</p>
                 <p className="text-gray-600">85%+ indicates tight supply</p>
