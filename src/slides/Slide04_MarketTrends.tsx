@@ -1,5 +1,3 @@
-import { TrendingUp } from 'lucide-react';
-
 const Slide04_MarketTrends = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-8">
