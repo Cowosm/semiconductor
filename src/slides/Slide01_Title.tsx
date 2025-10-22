@@ -11,6 +11,7 @@ const Slide01_Title = () => {
         <div className="mt-6 md:mt-8 text-center">
           <p className="text-lg md:text-2xl font-semibold text-gray-700">Jainam Shah</p>
           <p className="text-base md:text-xl text-gray-600 mt-2">UC Davis</p>
+          <p className="text-sm md:text-lg text-gray-500 mt-2">October 2025</p>
         </div>
       </div>
     </div>
