@@ -175,7 +175,7 @@ const Slide07_ValueChainSegments = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-gradient-to-r from-blue-50 to-green-50 p-6 rounded-lg border border-gray-200">
-              <h4 className="text-lg font-bold text-gray-800 mb-4">📊 Financial Profile Comparison</h4>
+              <h4 className="text-lg font-bold text-gray-800 mb-4">Financial Profile Comparison</h4>
               <div className="space-y-3">
                 <div className="flex justify-between items-center">
                   <span className="text-sm text-gray-700">Gross Margins:</span>
@@ -197,7 +197,7 @@ const Slide07_ValueChainSegments = () => {
             </div>
             
             <div className="bg-gradient-to-r from-orange-50 to-red-50 p-6 rounded-lg border border-gray-200">
-              <h4 className="text-lg font-bold text-gray-800 mb-4">⚡ Investment Implications</h4>
+              <h4 className="text-lg font-bold text-gray-800 mb-4">Investment Implications</h4>
               <div className="space-y-2">
                 <div className="flex items-start">
                   <span className="text-green-600 mr-2 mt-1 font-bold">•</span>
@@ -221,7 +221,7 @@ const Slide07_ValueChainSegments = () => {
 
           <div className="bg-gradient-to-r from-blue-100 to-purple-100 p-4 rounded-lg text-center">
             <p className="text-sm font-bold text-gray-800">
-              💡 Investment Insight: Specialization creates interdependence - no single company can dominate entire value chain
+              Investment Insight: Specialization creates interdependence - no single company can dominate entire value chain
             </p>
           </div>
         </div>

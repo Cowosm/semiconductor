@@ -88,7 +88,7 @@ const Slide02_IndustryOverview = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
             <div className="bg-green-50 p-3 md:p-4 rounded-lg border-l-4 border-green-600">
-              <h5 className="font-bold text-sm md:text-base text-green-900 mb-2">Growth Drivers 🚀</h5>
+              <h5 className="font-bold text-sm md:text-base text-green-900 mb-2">Growth Drivers</h5>
               <ul className="text-xs md:text-sm text-gray-700 space-y-1">
                 <li>• Gen AI boom ($125B→$150B+)</li>
                 <li>• EV adoption (3x chip content)</li>
@@ -99,7 +99,7 @@ const Slide02_IndustryOverview = () => {
             </div>
             
             <div className="bg-blue-50 p-3 md:p-4 rounded-lg border-l-4 border-blue-600">
-              <h5 className="font-bold text-sm md:text-base text-blue-900 mb-2">Investment Intensity 💰</h5>
+              <h5 className="font-bold text-sm md:text-base text-blue-900 mb-2">Investment Intensity</h5>
               <ul className="text-xs md:text-sm text-gray-700 space-y-1">
                 <li>• R&D: 52% of EBIT (2024)</li>
                 <li>• CapEx: $200B+ annually</li>
@@ -110,7 +110,7 @@ const Slide02_IndustryOverview = () => {
             </div>
             
             <div className="bg-purple-50 p-3 md:p-4 rounded-lg border-l-4 border-purple-600">
-              <h5 className="font-bold text-sm md:text-base text-purple-900 mb-2">Technology Trends 🔬</h5>
+              <h5 className="font-bold text-sm md:text-base text-purple-900 mb-2">Technology Trends</h5>
               <ul className="text-xs md:text-sm text-gray-700 space-y-1">
                 <li>• Node progression: 3nm→2nm→1.4nm</li>
                 <li>• Advanced packaging (2.5D/3D)</li>

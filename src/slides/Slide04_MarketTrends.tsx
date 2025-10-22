@@ -7,7 +7,7 @@ const Slide04_MarketTrends = () => {
         <div className="space-y-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
             <div className="bg-gradient-to-br from-purple-500 to-blue-500 text-white p-6 rounded-lg">
-              <h3 className="text-2xl font-bold mb-4">🤖 AI & Machine Learning</h3>
+              <h3 className="text-2xl font-bold mb-4">AI & Machine Learning</h3>
               <div className="space-y-3">
                 <div className="bg-white bg-opacity-20 p-3 rounded">
                   <p className="font-semibold mb-1">Market Size & Growth</p>
@@ -30,7 +30,7 @@ const Slide04_MarketTrends = () => {
             </div>
 
             <div className="bg-gradient-to-br from-green-500 to-teal-500 text-white p-6 rounded-lg">
-              <h3 className="text-2xl font-bold mb-4">⚡ Electric Vehicles</h3>
+              <h3 className="text-2xl font-bold mb-4">Electric Vehicles</h3>
               <div className="space-y-3">
                 <div className="bg-white bg-opacity-20 p-3 rounded">
                   <p className="font-semibold mb-1">Market Transformation</p>
@@ -53,7 +53,7 @@ const Slide04_MarketTrends = () => {
             </div>
 
             <div className="bg-gradient-to-br from-blue-500 to-cyan-500 text-white p-6 rounded-lg">
-              <h3 className="text-2xl font-bold mb-4">☁️ Cloud & Data Centers</h3>
+              <h3 className="text-2xl font-bold mb-4">Cloud & Data Centers</h3>
               <div className="space-y-3">
                 <div className="bg-white bg-opacity-20 p-3 rounded">
                   <p className="font-semibold mb-1">Infrastructure Boom</p>
@@ -76,7 +76,7 @@ const Slide04_MarketTrends = () => {
             </div>
 
             <div className="bg-gradient-to-br from-red-500 to-orange-500 text-white p-6 rounded-lg">
-              <h3 className="text-2xl font-bold mb-4">🔗 Supply Chain Evolution</h3>
+              <h3 className="text-2xl font-bold mb-4">Supply Chain Evolution</h3>
               <div className="space-y-3">
                 <div className="bg-white bg-opacity-20 p-3 rounded">
                   <p className="font-semibold mb-1">Post-Shortage Response</p>
@@ -157,7 +157,7 @@ const Slide04_MarketTrends = () => {
           </div>
 
           <div className="bg-gradient-to-r from-yellow-50 to-orange-50 p-6 rounded-lg border-l-4 border-yellow-600">
-            <h4 className="text-lg font-bold text-yellow-900 mb-3">📊 Market Impact Analysis</h4>
+            <h4 className="text-lg font-bold text-yellow-900 mb-3">Market Impact Analysis</h4>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
               <div>
                 <p className="font-semibold text-gray-800 mb-2">Winners by Trend</p>

@@ -13,7 +13,6 @@ const Slide06_KeyTakeaways = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <h3 className="text-xl font-bold text-green-900 mb-4 flex items-center">
-                <span className="text-2xl mr-3">✅</span>
                 Investment Positives
               </h3>
               <ul className="space-y-3 text-gray-700">
@@ -42,7 +41,6 @@ const Slide06_KeyTakeaways = () => {
 
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <h3 className="text-xl font-bold text-red-900 mb-4 flex items-center">
-                <span className="text-2xl mr-3">⚠️</span>
                 Key Risks
               </h3>
               <ul className="space-y-3 text-gray-700">
