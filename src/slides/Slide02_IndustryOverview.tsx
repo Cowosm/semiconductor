@@ -4,13 +4,13 @@ const Slide02_IndustryOverview = () => {
   return (
     <div className="h-full bg-gradient-to-br from-blue-50 to-indigo-100 p-4 md:p-8 overflow-auto">
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-2xl md:text-4xl font-bold text-gray-800 mb-4 md:mb-8">1. Industry Overview: Why Semiconductors Matter</h1>
+        <h1 className="text-xl md:text-4xl font-bold text-gray-800 mb-3 md:mb-8">1. Industry Overview: Why Semiconductors Matter</h1>
         
-        <div className="space-y-6">
-          <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-600">
-            <h3 className="text-2xl font-bold text-blue-900 mb-4">Critical to Modern Technology</h3>
-            <p className="text-lg text-gray-700 mb-3">Semiconductors are the backbone of virtually all modern electronic devices and digital infrastructure</p>
-            <div className="grid grid-cols-2 gap-4 text-sm">
+        <div className="space-y-4 md:space-y-6">
+          <div className="bg-blue-50 p-4 md:p-6 rounded-lg border-l-4 border-blue-600">
+            <h3 className="text-lg md:text-2xl font-bold text-blue-900 mb-2 md:mb-4">Critical to Modern Technology</h3>
+            <p className="text-sm md:text-lg text-gray-700 mb-2 md:mb-3">Semiconductors are the backbone of virtually all modern electronic devices and digital infrastructure</p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4 text-xs md:text-sm">
               <div>
                 <p className="font-semibold text-blue-800">Global Penetration:</p>
                 <p className="text-gray-600">• 1+ trillion chips manufactured annually</p>
@@ -26,28 +26,28 @@ const Slide02_IndustryOverview = () => {
             </div>
           </div>
           
-          <div className="grid grid-cols-2 gap-6 mt-6">
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h4 className="text-xl font-bold text-gray-800 mb-3 flex items-center">
-                <Globe className="w-6 h-6 mr-2 text-blue-600" />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+            <div className="bg-white p-4 md:p-6 rounded-lg shadow-md">
+              <h4 className="text-base md:text-xl font-bold text-gray-800 mb-2 md:mb-3 flex items-center">
+                <Globe className="w-5 h-5 md:w-6 md:h-6 mr-2 text-blue-600" />
                 2024-2025 Market Scale & Growth
               </h4>
-              <div className="space-y-3">
+              <div className="space-y-2 md:space-y-3">
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-700">2024 sales:</span>
-                  <span className="font-bold text-green-600">$627B (+19%)</span>
+                  <span className="text-xs md:text-base text-gray-700">2024 sales:</span>
+                  <span className="font-bold text-sm md:text-base text-green-600">$627B (+19%)</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-700">2025 forecast:</span>
-                  <span className="font-bold text-blue-600">$697B (new record)</span>
+                  <span className="text-xs md:text-base text-gray-700">2025 forecast:</span>
+                  <span className="font-bold text-sm md:text-base text-blue-600">$697B (new record)</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-700">2030 projection:</span>
-                  <span className="font-bold text-purple-600">$1+ trillion</span>
+                  <span className="text-xs md:text-base text-gray-700">2030 projection:</span>
+                  <span className="font-bold text-sm md:text-base text-purple-600">$1+ trillion</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-700">Top 10 market cap:</span>
-                  <span className="font-bold text-orange-600">$6.5T</span>
+                  <span className="text-xs md:text-base text-gray-700">Top 10 market cap:</span>
+                  <span className="font-bold text-sm md:text-base text-orange-600">$6.5T</span>
                 </div>
                 <div className="border-t pt-2 mt-3">
                   <p className="text-xs text-gray-500">CAGR 2024-2030: ~8.5%</p>
@@ -58,38 +58,38 @@ const Slide02_IndustryOverview = () => {
 
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h4 className="text-xl font-bold text-gray-800 mb-3 flex items-center">
-                <Zap className="w-6 h-6 mr-2 text-yellow-600" />
+                <Zap className="w-5 h-5 md:w-6 md:h-6 mr-2 text-yellow-600" />
                 Market Segments & Applications
               </h4>
-              <div className="space-y-3">
+              <div className="space-y-2 md:space-y-3">
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-700">AI & Data Centers:</span>
-                  <span className="font-bold text-purple-600">$209B (33%)</span>
+                  <span className="text-xs md:text-base text-gray-700">AI & Data Centers:</span>
+                  <span className="font-bold text-sm md:text-base text-purple-600">$209B (33%)</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-700">Mobile/Consumer:</span>
-                  <span className="font-bold text-blue-600">$188B (30%)</span>
+                  <span className="text-xs md:text-base text-gray-700">Mobile/Consumer:</span>
+                  <span className="font-bold text-sm md:text-base text-blue-600">$188B (30%)</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-700">Automotive:</span>
-                  <span className="font-bold text-green-600">$94B (15%)</span>
+                  <span className="text-xs md:text-base text-gray-700">Automotive:</span>
+                  <span className="font-bold text-sm md:text-base text-green-600">$94B (15%)</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-700">Industrial/IoT:</span>
-                  <span className="font-bold text-orange-600">$82B (13%)</span>
+                  <span className="text-xs md:text-base text-gray-700">Industrial/IoT:</span>
+                  <span className="font-bold text-sm md:text-base text-orange-600">$82B (13%)</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-700">Communications:</span>
-                  <span className="font-bold text-red-600">$54B (9%)</span>
+                  <span className="text-xs md:text-base text-gray-700">Communications:</span>
+                  <span className="font-bold text-sm md:text-base text-red-600">$54B (9%)</span>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="grid grid-cols-3 gap-4">
-            <div className="bg-green-50 p-4 rounded-lg border-l-4 border-green-600">
-              <h5 className="font-bold text-green-900 mb-2">Growth Drivers 🚀</h5>
-              <ul className="text-sm text-gray-700 space-y-1">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
+            <div className="bg-green-50 p-3 md:p-4 rounded-lg border-l-4 border-green-600">
+              <h5 className="font-bold text-sm md:text-base text-green-900 mb-2">Growth Drivers 🚀</h5>
+              <ul className="text-xs md:text-sm text-gray-700 space-y-1">
                 <li>• Gen AI boom ($125B→$150B+)</li>
                 <li>• EV adoption (3x chip content)</li>
                 <li>• 5G infrastructure rollout</li>
@@ -98,9 +98,9 @@ const Slide02_IndustryOverview = () => {
               </ul>
             </div>
             
-            <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-600">
-              <h5 className="font-bold text-blue-900 mb-2">Investment Intensity 💰</h5>
-              <ul className="text-sm text-gray-700 space-y-1">
+            <div className="bg-blue-50 p-3 md:p-4 rounded-lg border-l-4 border-blue-600">
+              <h5 className="font-bold text-sm md:text-base text-blue-900 mb-2">Investment Intensity 💰</h5>
+              <ul className="text-xs md:text-sm text-gray-700 space-y-1">
                 <li>• R&D: 52% of EBIT (2024)</li>
                 <li>• CapEx: $200B+ annually</li>
                 <li>• Leading fab: $15-20B</li>
@@ -109,9 +109,9 @@ const Slide02_IndustryOverview = () => {
               </ul>
             </div>
             
-            <div className="bg-purple-50 p-4 rounded-lg border-l-4 border-purple-600">
-              <h5 className="font-bold text-purple-900 mb-2">Technology Trends 🔬</h5>
-              <ul className="text-sm text-gray-700 space-y-1">
+            <div className="bg-purple-50 p-3 md:p-4 rounded-lg border-l-4 border-purple-600">
+              <h5 className="font-bold text-sm md:text-base text-purple-900 mb-2">Technology Trends 🔬</h5>
+              <ul className="text-xs md:text-sm text-gray-700 space-y-1">
                 <li>• Node progression: 3nm→2nm→1.4nm</li>
                 <li>• Advanced packaging (2.5D/3D)</li>
                 <li>• Chiplet architectures</li>
@@ -121,8 +121,8 @@ const Slide02_IndustryOverview = () => {
             </div>
           </div>
 
-          <div className="bg-yellow-50 p-4 rounded-lg mt-6">
-            <p className="text-gray-700"><strong>2024-25 Market Update:</strong> R&D spending reached 52% of EBIT (up from 45% in 2015). Gen AI chips exceeded $125B in 2024, forecast &gt;$150B in 2025. TSMC&apos;s CoWoS advanced packaging capacity doubled to 660K wafers/year to meet AI demand.</p>
+          <div className="bg-yellow-50 p-3 md:p-4 rounded-lg">
+            <p className="text-xs md:text-sm text-gray-700"><strong>2024-25 Market Update:</strong> R&D spending reached 52% of EBIT (up from 45% in 2015). Gen AI chips exceeded $125B in 2024, forecast &gt;$150B in 2025. TSMC&apos;s CoWoS advanced packaging capacity doubled to 660K wafers/year to meet AI demand.</p>
           </div>
         </div>
       </div>
