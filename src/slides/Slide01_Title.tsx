@@ -8,6 +8,10 @@ const Slide01_Title = () => {
         <h1 className="text-3xl md:text-5xl font-bold text-gray-800 text-center">Semiconductor Industry</h1>
         <h2 className="text-xl md:text-3xl text-gray-600 text-center px-4">Strategic Analysis & Investment Overview</h2>
         <p className="text-base md:text-xl text-gray-500 mt-4 md:mt-8 text-center">A Financial Analyst Perspective</p>
+        <div className="mt-6 md:mt-8 text-center">
+          <p className="text-lg md:text-2xl font-semibold text-gray-700">Jainam Shah</p>
+          <p className="text-base md:text-xl text-gray-600 mt-2">UC Davis</p>
+        </div>
       </div>
     </div>
   );
